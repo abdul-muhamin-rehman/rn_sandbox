@@ -29,7 +29,6 @@ export default function App() {
       return currentCourseGoals.filter(goal => goal.id !== id);
     });
   }
-
   return (
     <>
       <StatusBar style="light" />
